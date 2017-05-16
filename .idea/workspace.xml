@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="599428eb-313d-4366-b5e6-a083b2073306" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgoPrep/Solution.class" afterPath="$PROJECT_DIR$/out/production/AlgoPrep/Solution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgoPrep/Test.class" afterPath="$PROJECT_DIR$/out/production/AlgoPrep/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,9 +18,12 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="159">
+              <caret line="71" column="8" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+              <folding>
+                <element signature="e#2153#2154#0" expanded="true" />
+                <element signature="e#2210#2211#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +71,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="347" />
+    <option name="x" value="331" />
     <option name="y" value="23" />
     <option name="width" value="1386" />
     <option name="height" value="912" />
@@ -559,15 +557,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494932406032</updated>
-      <workItem from="1494932410589" duration="3234000" />
+      <workItem from="1494932410589" duration="4123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3234000" />
+    <option name="totallyTimeSpent" value="4123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="347" y="23" width="1386" height="912" extended-state="0" />
+    <frame x="331" y="23" width="1386" height="912" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -626,9 +624,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="159">
+          <caret line="71" column="8" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+          <folding>
+            <element signature="e#2153#2154#0" expanded="true" />
+            <element signature="e#2210#2211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

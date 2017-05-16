@@ -3,7 +3,7 @@
  */
 public class Solution {
     /*
-    Question:
+    Question: Rotate an array to the right by k steps
      */
     public static void rotate(int[] nums, int k) {
         if(k > nums.length){
@@ -64,5 +64,30 @@ public class Solution {
             end--;
         }
 
+    }
+
+    /*
+        Question: Reverse a string. Example: "hello" into "olleh"
+        String is immutable in Java => need to parse into a chaArray then pass it back to a String
+        toCharArray()
+        String.valueOf(charArray)
+     */
+    public String reverseString(String s) {
+        return reverseString(s, 0, s.length() -1);
+    }
+    private static String reverseString(String s, int start, int end) {
+        if(s == null || s.length() == 1){
+            return s;
+        }
+        char[] tempS = s.toCharArray();
+        while(start < end){
+            char temp = tempS[end];
+            tempS[end] = tempS[start];
+            tempS[start]  = temp;
+            start++;
+            end--;
+        }
+        s = String.valueOf(tempS);
+        return s;
     }
 }
