@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AlgoPrep.iml" filepath="$PROJECT_DIR$/AlgoPrep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigO/BigO.iml" filepath="$PROJECT_DIR$/BigO/BigO.iml" />
     </modules>
   </component>
 </project>

@@ -90,4 +90,49 @@ public class Solution {
         s = String.valueOf(tempS);
         return s;
     }
+
+    /*
+        Question: Reverse words in String
+        Example: "the cat is cute" --> "cute is cat the"
+     */
+    public static String reverseWords(String input) {
+        char[] s = input.toCharArray();
+        int i=0;
+        for(int j=0; j<s.length; j++){
+            if(s[j]==' '){
+                reverse(s, i, j-1);
+                i=j+1;
+            }
+        }
+
+        reverse(s, i, s.length-1);
+        reverse(s, 0, s.length-1);
+        return s.toString();
+    }
+
+    public static String reverse(char[] s, int i, int j){
+        while(i<j){
+            char temp = s[i];
+            s[i]=s[j];
+            s[j]=temp;
+            i++;
+            j--;
+        }
+        return s.toString();
+    }
+
+    /*
+        this doesn't work with " 1" since it will return "1 " instead of "1"
+     */
+    public static String reverseWords2(String s) {
+        String[] sArr = s.split(" ");
+        StringBuilder builder = new StringBuilder();
+        for(int i = sArr.length-1; i >= 0; i--){
+            builder.append(sArr[i]);
+            if(i != 0){
+                builder.append(" ");
+            }
+        }
+        return  builder.toString();
+    }
 }
