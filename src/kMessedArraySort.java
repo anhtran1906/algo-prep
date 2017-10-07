@@ -25,6 +25,17 @@ public class kMessedArraySort {
         }
     }
 
+    public static void insertionSort(int[] arr){
+        for(int i = 0; i < arr.length; i++) {
+            int j = i - 1;
+            while (j >= 0 && arr[j] > arr[i]) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+            arr[j + 1] = arr[i];
+        }
+    }
+
 
     public static int[] sortkMessedArr(int[]arr, int k){
         for(int i = 1; i < arr.length; i++){
@@ -37,6 +48,20 @@ public class kMessedArraySort {
             arr[j+1] = x;
         }
         return arr;
+    }
+
+    public static void heapSort(int[] arr, int k){
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
+        for(int i = 0; i < k+1; i++){
+            heap.add(arr[i]);
+        }
+        for(int i = k+1; i < arr.length; i++){
+            arr[i-(k+1)] = heap.poll();
+            heap.add(arr[i]);
+        }
+        for(int i = 0; i < k+1; i++){
+            arr  [arr.length -1 - k + i] = heap.poll();
+        }
     }
 
     public static void sortArr(int[] arr, int k){

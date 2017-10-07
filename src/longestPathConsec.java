@@ -31,16 +31,16 @@ n = 4
 */
 
 
-    public int computeLongestConsecutivePath(ArrayList<ArrayList<Integer>> table) {
-        int min = table.size() * table.size() +1;
-        ArrayList<Integer> row = table[0];
-        for(int i = 0; i < row.size(); i++){
-            min = Math.min(row.get(i), min);
-        }
-
-    }
-
-    public int findIndexOfConsecutive(ArrayList<Integer> row,) {
-
-    }
+//    public int computeLongestConsecutivePath(ArrayList<ArrayList<Integer>> table) {
+//        int min = table.size() * table.size() +1;
+//        ArrayList<Integer> row = table[0];
+//        for(int i = 0; i < row.size(); i++){
+//            min = Math.min(row.get(i), min);
+//        }
+//
+//    }
+//
+//    public int findIndexOfConsecutive(ArrayList<Integer> row,) {
+//
+//    }
 }
